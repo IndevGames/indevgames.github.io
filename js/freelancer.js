@@ -6,14 +6,27 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-    $('.page-scroll a').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
+  $('.page-scroll a').bind('click', function(event) {
+    var $anchor = $(this);
+    var target = $($anchor.attr('href'));
+
+    if (target.length) {
+      var windowHeight = $(window).height();
+      var targetHeight = target.outerHeight();
+      var targetOffset = target.offset().top;
+
+      // Calculate position so section appears vertically centered
+      var scrollTo = targetOffset - (windowHeight / 2) + (targetHeight / 2);
+
+      $('html, body').stop().animate({
+        scrollTop: scrollTo
+      }, 1200, 'easeInOutExpo');
+      event.preventDefault();
+    }
+  });
 });
+
+
 
 // Floating label headings for the contact form
 $(function() {
