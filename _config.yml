@@ -66,3 +66,11 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  sort_field: 'date'
+  sort_reverse: true
+  collection: 'posts'

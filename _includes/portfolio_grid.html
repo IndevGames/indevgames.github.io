@@ -1,4 +1,4 @@
-<!-- Portfolio Grid Section (show all posts, but render page buttons below) -->
+<!-- Portfolio Grid Section -->
 <section id="portfolio">
   <div class="container portfolio-flex-grid">
     <div class="row">
@@ -8,8 +8,8 @@
       </div>
     </div>
 
-    <!-- ALL portfolio items shown (for testing) -->
-    <div class="portfolio-flex-row">
+    <!-- Portfolio items (all rendered, but hidden/shown via JS) -->
+    <div class="portfolio-flex-row" id="portfolio-posts">
       {% for post in site.posts %}
       <div class="portfolio-flex-item portfolio-item">
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
@@ -24,22 +24,43 @@
       {% endfor %}
     </div>
 
-    <!-- Page buttons (UI only for now) -->
-    {% assign total_posts = site.posts | size %}
-    {% assign per_page = 6 %}
-    {% assign pages = total_posts | divided_by: per_page %}
-    {% assign remainder = total_posts | modulo: per_page %}
-    {% if remainder > 0 %}
-      {% assign pages = pages | plus: 1 %}
-    {% endif %}
-
-    {% if pages > 1 %}
-    <div class="pagination-container">
-      {% for i in (1..pages) %}
-        <a href="#" class="portfolio-page-btn">{{ i }}</a>
-      {% endfor %}
+    <!-- Pagination Buttons -->
+    <div class="pagination-container text-center" id="pagination">
+      <!-- buttons generated via JS -->
     </div>
-    {% endif %}
 
   </div>
 </section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const posts = document.querySelectorAll("#portfolio-posts .portfolio-item");
+  const perPage = 6;
+  const total = posts.length;
+  const totalPages = Math.ceil(total / perPage);
+  const pagination = document.getElementById("pagination");
+
+  function showPage(page) {
+    posts.forEach((post, i) => {
+      post.style.display = (i >= (page - 1) * perPage && i < page * perPage) ? "block" : "none";
+    });
+
+    // Update button states
+    document.querySelectorAll(".portfolio-page-btn").forEach((btn, idx) => {
+      btn.classList.toggle("active", idx + 1 === page);
+    });
+  }
+
+  // Create buttons dynamically
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement("button");
+    btn.textContent = i;
+    btn.className = "portfolio-page-btn";
+    btn.addEventListener("click", () => showPage(i));
+    pagination.appendChild(btn);
+  }
+
+  // Show first page on load
+  showPage(1);
+});
+</script>

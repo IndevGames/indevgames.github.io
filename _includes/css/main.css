@@ -533,6 +533,31 @@ footer .footer-below {
   width: 100%;
   text-align: center;
 }
+/* Center the last row if it has less than 3 items */
+/* General grid */
+#portfolio-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* normal spacing */
+  gap: 2%; /* small gap between items */
+}
+
+/* Each item */
+#portfolio-posts .portfolio-flex-item {
+  flex: 1 0 32%; /* 3 columns for desktop */
+  max-width: 32%;
+  margin-bottom: 30px;
+}
+
+/* Center last row if it has fewer than 3 items */
+#portfolio-posts .portfolio-flex-item:nth-last-child(-n+2):first-child {
+  margin-left: auto;
+  margin-right: auto;
+}
+#portfolio-posts .portfolio-flex-item:nth-last-child(2):first-child + .portfolio-flex-item {
+  margin-left: 20px; /* gap between 2 items */
+}
+
 
 
 
