@@ -1,4 +1,4 @@
-<!-- Portfolio Grid Section -->
+<!-- Portfolio Grid Section (show all posts, but render page buttons below) -->
 <section id="portfolio">
   <div class="container portfolio-flex-grid">
     <div class="row">
@@ -7,6 +7,8 @@
         <hr class="star-primary">
       </div>
     </div>
+
+    <!-- ALL portfolio items shown (for testing) -->
     <div class="portfolio-flex-row">
       {% for post in site.posts %}
       <div class="portfolio-flex-item portfolio-item">
@@ -21,5 +23,23 @@
       </div>
       {% endfor %}
     </div>
+
+    <!-- Page buttons (UI only for now) -->
+    {% assign total_posts = site.posts | size %}
+    {% assign per_page = 6 %}
+    {% assign pages = total_posts | divided_by: per_page %}
+    {% assign remainder = total_posts | modulo: per_page %}
+    {% if remainder > 0 %}
+      {% assign pages = pages | plus: 1 %}
+    {% endif %}
+
+    {% if pages > 1 %}
+    <div class="pagination-container">
+      {% for i in (1..pages) %}
+        <a href="#" class="portfolio-page-btn">{{ i }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
   </div>
 </section>

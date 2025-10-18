@@ -475,10 +475,65 @@ footer .footer-below {
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
-
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+/* -------------------------------------------------- */
+/* Contact Form Send Button Hover + Smooth Transition */
+/* -------------------------------------------------- */
+
+#contact .btn-success {
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .btn-success:hover,
+#contact .btn-success:focus {
+  background-color: #{{ site.color.secondary }} !important;
+  border-color: #{{ site.color.secondary }} !important;
+  color: #fff !important;
+}
+
+/* Portfolio pagination button hover (same style as send button) */
+#portfolio .portfolio-page-btn:hover,
+#portfolio .portfolio-page-btn:focus {
+  background-color: #{{ site.color.secondary }} !important;
+  border-color: #{{ site.color.secondary }} !important;
+  color: #fff !important;
+}
+
+/* Portfolio pagination buttons */
+.portfolio-page-btn {
+  background-color: #{{ site.color.primary }};
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  margin: 0 4px; /* slightly reduced spacing */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.portfolio-page-btn:hover,
+.portfolio-page-btn:focus {
+  background-color: #{{ site.color.secondary }}; /* same hover color as send button */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Center the pagination buttons */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px; /* tighter button spacing */
+  margin-top: 25px; /* slightly reduced top margin */
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
