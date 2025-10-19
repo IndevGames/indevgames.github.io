@@ -7,7 +7,9 @@
         <hr class="star-primary">
       </div>
     </div>
-    <div class="portfolio-flex-row">
+
+    <!-- Portfolio items (all rendered, but hidden/shown via JS) -->
+    <div class="portfolio-flex-row" id="portfolio-posts">
       {% for post in site.posts %}
       <div class="portfolio-flex-item portfolio-item">
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
@@ -21,5 +23,44 @@
       </div>
       {% endfor %}
     </div>
+
+    <!-- Pagination Buttons -->
+    <div class="pagination-container text-center" id="pagination">
+      <!-- buttons generated via JS -->
+    </div>
+
   </div>
 </section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const posts = document.querySelectorAll("#portfolio-posts .portfolio-item");
+  const perPage = 6;
+  const total = posts.length;
+  const totalPages = Math.ceil(total / perPage);
+  const pagination = document.getElementById("pagination");
+
+  function showPage(page) {
+    posts.forEach((post, i) => {
+      post.style.display = (i >= (page - 1) * perPage && i < page * perPage) ? "block" : "none";
+    });
+
+    // Update button states
+    document.querySelectorAll(".portfolio-page-btn").forEach((btn, idx) => {
+      btn.classList.toggle("active", idx + 1 === page);
+    });
+  }
+
+  // Create buttons dynamically
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement("button");
+    btn.textContent = i;
+    btn.className = "portfolio-page-btn";
+    btn.addEventListener("click", () => showPage(i));
+    pagination.appendChild(btn);
+  }
+
+  // Show first page on load
+  showPage(1);
+});
+</script>

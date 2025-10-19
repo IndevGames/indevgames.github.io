@@ -27,8 +27,8 @@ disqus_shortname: myshortname
 color:
   primary: 0078FF
   primary-rgb: "0,120,255"
-  secondary: 1E1E1E
-  secondary-dark: 0D0D0D
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
@@ -43,7 +43,7 @@ social:
   - title: unity
     url: https://discussions.unity.com/u/gamesartstudio
   - title: linkedin
-    url: www.linkedin.com/in/muhammad-adil-253502233
+    url: https://www.linkedin.com/in/muhammad-adil-253502233
   - title: github
     url: https://github.com/IndevGames
 
@@ -66,3 +66,11 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  sort_field: 'date'
+  sort_reverse: true
+  collection: 'posts'
