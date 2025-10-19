@@ -1,11 +1,44 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: cabin.png
+date: 2019-12-18
+img: superhero.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: Dec 2019
+client: Metal Heart Studio (MHS)
+category: Game Development
+description: |
+  ### 🎮 Super Hero: Justice War League  
+
+  *Super Hero: Justice War League* was my first complete 3D superhero action game, developed entirely from scratch using **Unity** and the **Invector Third Person Controller** framework.  
+
+  I expanded the base controller with several advanced gameplay features:  
+
+  <div style="text-align:left; margin: 10px 0;">
+  • 🕹️ Grappling, fire blow, fireball attacks, and flying ability for dynamic superhero movement.<br>
+  • 👊 Unarmed combat system with responsive animations and combo logic.<br>
+  • 🤖 Enemy group AI where opponents engage the player one by one in coordinated combat.<br>
+  • 💰 Integrated monetization systems such as ads and in-app purchases.<br>
+  • 🧭 Interactive main menu and polished UI for smooth navigation.<br>
+  </div>
+
+  This project was a major step in my game development journey — combining gameplay programming, animation setup, and system integration into a complete, playable experience.
+
+  ---
+
+  #### 🛒 Available on the App Store  
+  <div style="text-align:center;">
+  <a href="https://apps.apple.com/us/app/super-hero-justice-war-league/id1644682510" target="_blank">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="180" alt="Download on the App Store">
+  </a>
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+  <a href="https://youtu.be/FBjzGjlc6AU?si=4MeAbssY5EkRl4W_" target="_blank">
+    <img src="https://img.youtube.com/vi/FBjzGjlc6AU/maxresdefault.jpg" width="720" alt="Super Hero Gameplay Thumbnail">
+  </a>
+  </div>
 ---
