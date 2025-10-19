@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-date: 2019-12-18
+date: 2014-07-18
 img: superhero.png
 alt: image-alt
 project-date: Dec 2019
@@ -23,6 +23,15 @@ description: |
   </div>
 
   This project was a major step in my game development journey — combining gameplay programming, animation setup, and system integration into a complete, playable experience.
+
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://www.facebook.com/mhs.gamestudio/" target="_blank">
+      <img src="https://scontent.fpew1-1.fna.fbcdn.net/v/t39.30808-6/310381486_622756142880815_8559871954608147141_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFDVjGxL9L3mfe7vvqhOEzyR7Kbx0hnZQFHspvHSGdlAan25QDJaUkxApuKveHshCZG-csCkt945dp-_sUb6vdS&_nc_ohc=oL-Ld6FVm6gQ7kNvwG9KK2C&_nc_oc=AdmPXb0DpGnWg3YdnP5j3CS3FJtESYqAPEsLBSP0ABx3vTIeSXhHRWYiqSHNmtnzcwCUxEFBd0nYuflnFgnRhUd_&_nc_zt=23&_nc_ht=scontent.fpew1-1.fna&_nc_gid=6AWiadNKnr59qVb_xVCsuA&oh=00_AfdNVgzWlGXkTzirtsleCuC3WVM9lie42FTJFzMCsPma4g&oe=68FA8F06" width="160" alt="Aptech Media Logo">
+    </a>
+  </div>
 
   ---
 
