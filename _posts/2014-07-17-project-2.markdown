@@ -39,8 +39,8 @@ description: |
 
   #### 📱 Available on Google Play  
   <div style="text-align:center;">
-  <a href="https://play.google.com/store/search?q=Mogaland&c=apps&hl=en" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" width="200" alt="Get it on Google Play">
+  <a href="https://play.google.com/store/search?q=Mogaland&c=apps&hl=en" target="_blank" class="store-badge">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
   </a>
   </div>
 
@@ -48,8 +48,8 @@ description: |
 
   #### 🎥 Gameplay Video  
   <div style="text-align:center;">
-  <a href="https://www.youtube.com/watch?v=dVZ3ryEueW4" target="_blank">
-    <img src="https://img.youtube.com/vi/dVZ3ryEueW4/maxresdefault.jpg" width="720" alt="Mogaland Gameplay Thumbnail">
+  <a href="https://www.youtube.com/watch?v=dVZ3ryEueW4" target="_blank" class="youtube-thumb">
+    <img src="https://img.youtube.com/vi/dVZ3ryEueW4/maxresdefault.jpg" alt="Mogaland Gameplay Thumbnail">
   </a>
   </div>
 ---

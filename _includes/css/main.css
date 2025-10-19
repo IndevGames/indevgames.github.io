@@ -612,8 +612,8 @@ footer .footer-below {
   transform: scale(1.05);
 }
 
-/* --- Keep App Store badge large with proper spacing --- */
-.modal-body a.appstore-badge img {
+/* --- Keep (apple/google) Store badge large with proper spacing --- */
+.modal-body a.store-badge img {
   width: 180px;                /* Keep original large size */
   height: auto;
   display: block;
@@ -622,7 +622,7 @@ footer .footer-below {
   transition: transform 0.2s ease;
 }
 
-.modal-body a.appstore-badge img:hover {
+.modal-body a.store-badge img:hover {
   transform: scale(1.05);
 }
 
