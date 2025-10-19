@@ -625,6 +625,22 @@ footer .footer-below {
 .modal-body a.store-badge img:hover {
   transform: scale(1.05);
 }
+/* Force center align for project meta info */
+.portfolio-modal .modal-body .list-inline,
+.portfolio-modal .modal-body .project-details {
+  text-align: center !important;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.portfolio-modal .modal-body .list-inline li,
+.portfolio-modal .modal-body .project-details li {
+  display: inline-block !important;
+  float: none !important;
+  margin: 0 15px;
+}
 
 
 

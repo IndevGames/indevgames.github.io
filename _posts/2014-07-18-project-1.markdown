@@ -5,7 +5,7 @@ date: 2014-07-18
 img: superhero.png
 alt: image-alt
 project-date: Dec 2019
-client: Metal Heart Studio (MHS)
+client: Metal Heart Studio
 category: Game Development
 description: |
   ### 🎮 Super Hero: Justice War League  
