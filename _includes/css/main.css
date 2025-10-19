@@ -598,6 +598,34 @@ footer .footer-below {
 .modal-body a img:hover {
   transform: scale(1.05);       /* Subtle zoom hover effect */
 }
+/* --- YouTube thumbnail with comfortable spacing --- */
+.modal-body a.youtube-thumb img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto 60px auto; /* Top and bottom spacing increased */
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.modal-body a.youtube-thumb img:hover {
+  transform: scale(1.05);
+}
+
+/* --- Keep App Store badge large with proper spacing --- */
+.modal-body a.appstore-badge img {
+  width: 180px;                /* Keep original large size */
+  height: auto;
+  display: block;
+  margin: 25px auto 55px auto; /* Added bottom spacing (was 15px) */
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.modal-body a.appstore-badge img:hover {
+  transform: scale(1.05);
+}
+
 
 
 
