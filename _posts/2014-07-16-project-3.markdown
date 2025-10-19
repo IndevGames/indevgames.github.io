@@ -2,10 +2,54 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: circus.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: swordfight.png
+alt: Life of a Gladiator
+project-date: September 2022
+client: Aptech Media
+category: Game Development
+description: |
+  ### ⚔️ Sword Fight: Life of a Gladiator  
+
+  *Sword Fight: Life of a Gladiator* is an intense action game developed at **[Aptech Media](https://aptechmedia.com)**, where I was responsible for expanding the gameplay systems and integrating advanced combat features. The project was part of Aptech Media’s in-house productions, giving me creative freedom to push the combat design and player experience.
+
+  My primary contributions focused on designing **combo systems**, **executions**, and **cutscenes** to make the swordplay dynamic and cinematic. I also integrated **Unity Ads**, **in-app purchases**, and the **Magic Cloth physics package** for realistic character and cloth simulation.  
+
+  The AI enemies were built using a **Finite State Machine (FSM)** architecture, which made their behavior modular, scalable, and easy to extend — a key learning milestone for me in gameplay AI programming.
+
+  <div style="text-align:left; margin: 10px 0;">
+  • ⚔️ Designed and implemented a full **combo and execution system**.<br>
+  • 🎬 Created **cinematic cutscenes** and execution transitions.<br>
+  • 💰 Integrated **Unity Ads** and **In-App Purchases** for monetization.<br>
+  • 🧵 Implemented **Magic Cloth physics** for realistic visuals.<br>
+  • 🧠 Built **enemy AI** using a Finite State Machine approach.<br>
+  • 🔧 Worked with the **Invector Third-Person Controller** framework.<br>
+  </div>
+
+  This project deepened my understanding of **AI systems**, **combat design**, and **technical gameplay implementation** — blending creativity with solid programming structure.
+  
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://aptechmedia.com" target="_blank">
+      <img src="https://media.licdn.com/dms/image/v2/C510BAQFGavHi2YzPAg/company-logo_200_200/company-logo_200_200/0/1630584984706/aptechmedia_logo?e=1762387200&v=beta&t=ogc5ZI2kOvGCbbJzmLQ1LE9p8cFCIqDGa_YD6xxtnME" width="160" alt="Aptech Media Logo">
+    </a>
+  </div>
+
+  ---
+
+  #### 📱 Coming Soon on Google Play  
+  <div style="text-align:center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" target="_blank" class="store-badge" alt="Coming Soon on Google Play" style="opacity:0.5;">
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+    <a href="https://www.youtube.com/watch?v=EyXlOHPMnc0&t=96s" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/EyXlOHPMnc0/maxresdefault.jpg" alt="Sword Fight: Life of a Gladiator Thumbnail">
+    </a>
+  </div>
+
 ---
