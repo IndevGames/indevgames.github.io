@@ -2,10 +2,51 @@
 layout: default
 modal-id: 6
 date: 2014-07-13
-img: submarine.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: stateofsurvival.png
+alt: State of Survival Zombie Game Thumbnail
+project-date: October 2024
+client: Indev Games
+category: Game Development
+description: |
+  ### 🧟 State of Survival: Zombie Game  
+
+  *State of Survival: Zombie Game* is an intense **third-person action survival game** built using the **Invector Controller System**. Players step into a post-apocalyptic world overrun by the undead — battling hordes of zombies and taking on powerful bosses in action-packed combat missions.
+
+  The game offers a deep melee and ranged combat experience with the slow motion action where players can choose from a variety of weapons and play styles:
+
+  <div style="text-align:left; margin: 10px 0;">
+  • ⚔️ **Sword, Axe, and Bat Combat:** Engage in close-range battles with smooth, responsive attacks.<br>
+  • 🪓 **Throwable Axe:** Inspired by *God of War*, players can throw their axe, **recall it**, and use it again for devastating combos.<br>
+  • 🧟 **Zombie & Boss Fights:** Battle through waves of zombies and face challenging boss encounters at the end of each level.<br>
+  • 💥 **Level Progression:** Unlock new levels and environments as you advance through the story.<br>
+  </div>
+
+  The game also includes **in-app purchases** and a **dual ad system** that uses both **AppLovin** and **AdMob**, ensuring consistent ad performance and monetization even if one network fails.
+
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://play.google.com/store/apps/dev?id=5098086919552643266&hl=en" target="_blank">
+      <img src="https://play-lh.googleusercontent.com/5xfRPBKIeOt3OZwOoTTY-m9i1U3lW26WVxaXS1yHP7Oung5V0_kwHP2bDorunyuYPw=w3840-h2160" width="260" alt="Skylab Studios Logo">
+    </a>
+  </div>
+
+  ---
+
+  #### 📱 Available on Google Play  
+  <div style="text-align:center;">
+    <a href="https://play.google.com/store/apps/details?id=com.indev.stateofsurvivalzombiegame&hl=en" target="_blank" class="store-badge">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+    </a>
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+    <a href="https://www.youtube.com/watch?v=tUNVObOH7pU&t=22s" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/tUNVObOH7pU/maxresdefault.jpg" alt="State of Survival Gameplay Thumbnail">
+    </a>
+  </div>
 ---
