@@ -2,10 +2,51 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: game.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: realcarracing.png
+alt: Real Car Racing Thumbnail
+project-date: September 2023
+client: Indev Games 
+category: Game Development
+description: |
+  ### 🚗 Real Car Racing: Fun Adventure  
+
+  *Real Car Racing: Fun Adventure* is a thrilling **multiplayer and single-player racing game** built with the powerful RCC system. It combines exciting physics-based car handling with creative map mechanics that evolve as players progress through levels.
+
+  The game features **four unique maps**, each unlocking as players level up — and every map introduces a special gameplay twist:
+
+  <div style="text-align:left; margin: 10px 0;">
+  • 💰 **Map 1 – Coin Rush:** Players collect coins scattered throughout the track.<br>
+  • 🌀 **Map 2 – Portal Run:** Teleport through start and end portals to skip sections of the race.<br>
+  • ⚠️ **Map 3 – Spike Zone:** Avoid road spikes that slow you down and challenge your control.<br>
+  • 🚀 **Map 4 – Ramp Boost:** Collect ramps and activate the **Ramp Button** to spawn a ramp that launches your car forward for a high-speed leap!<br>
+  </div>
+
+  The game also includes **in-app purchases** and a **smart ad system** integrating both **AppLovin** and **AdMob** — ensuring smooth ad serving and better revenue performance. If one ad network fails to load due to excessive requests, the other automatically takes over.
+
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://play.google.com/store/apps/dev?id=5098086919552643266&hl=en" target="_blank">
+      <img src="https://play-lh.googleusercontent.com/5xfRPBKIeOt3OZwOoTTY-m9i1U3lW26WVxaXS1yHP7Oung5V0_kwHP2bDorunyuYPw=w3840-h2160" width="260" alt="Skylab Studios Logo">
+    </a>
+  </div>
+
+  ---
+
+  #### 📱 Available on Google Play  
+  <div style="text-align:center;">
+    <a href="https://play.google.com/store/apps/details?id=com.SkylabStudios.CarRacing&hl=en" target="_blank" class="store-badge">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+    </a>
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+    <a href="https://www.youtube.com/watch?v=iGjI_BL-yfc&t=28s" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/iGjI_BL-yfc/maxresdefault.jpg" alt="Real Car Racing Gameplay Thumbnail">
+    </a>
+  </div>
 ---

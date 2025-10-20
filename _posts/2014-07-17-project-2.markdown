@@ -2,10 +2,54 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: cake.png
+img: mogaland.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: June 2021
+client: Aptech Media
+category: Game Development
+description: |
+  ### 🌍 Mogaland  
+
+  *Mogaland* is an educational adventure game developed in collaboration with an international client team based in Germany. I contributed to this project during my time at **[Aptech Media](https://aptechmedia.com)**, where I was part of a multidisciplinary team responsible for expanding and maintaining the game.
+
+  My main tasks involved integrating a **new map area**, fixing gameplay bugs, and optimizing performance for a smoother and more engaging experience.  
+
+  The workflow was highly collaborative — tasks were tracked in **Jira**, progress was managed via **GitHub**, and each code update was reviewed and merged by our team lead to maintain consistency and quality.
+
+  <div style="text-align:left; margin: 10px 0;">
+  • 🌍 Implemented a new map with dynamic interactions and optimized asset loading.<br>
+  • 🧩 Fixed gameplay and UI bugs reported by QA and the client team.<br>
+  • 🔧 Integrated new client-requested features and refined existing systems.<br>
+  • 🤝 Collaborated closely with the Germany-based client for updates and feedback.<br>
+  • 🧰 Worked within Agile sprints using Jira and Git version control.<br>
+  </div>
+
+  This project strengthened my expertise in **team collaboration**, **client communication**, and **large-scale Unity development** workflows.
+
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://aptechmedia.com" target="_blank">
+      <img src="https://media.licdn.com/dms/image/v2/C510BAQFGavHi2YzPAg/company-logo_200_200/company-logo_200_200/0/1630584984706/aptechmedia_logo?e=1762387200&v=beta&t=ogc5ZI2kOvGCbbJzmLQ1LE9p8cFCIqDGa_YD6xxtnME" width="160" alt="Aptech Media Logo">
+    </a>
+  </div>
+
+  ---
+
+  #### 📱 Available on Google Play  
+  <div style="text-align:center;">
+  <a href="https://play.google.com/store/search?q=Mogaland&c=apps&hl=en" target="_blank" class="store-badge">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+  </a>
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+  <a href="https://www.youtube.com/watch?v=dVZ3ryEueW4" target="_blank" class="youtube-thumb">
+    <img src="https://img.youtube.com/vi/dVZ3ryEueW4/maxresdefault.jpg" alt="Mogaland Gameplay Thumbnail">
+  </a>
+  </div>
 ---

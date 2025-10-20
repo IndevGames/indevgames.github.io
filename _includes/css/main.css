@@ -557,6 +557,95 @@ footer .footer-below {
 #portfolio-posts .portfolio-flex-item:nth-last-child(2):first-child + .portfolio-flex-item {
   margin-left: 20px; /* gap between 2 items */
 }
+/* --- Portfolio modal description styling --- */
+/* --- Improved modal description typography --- */
+.modal-body p,
+.modal-body ul,
+.modal-body li {
+  text-align: left !important;
+  font-size: 18px;              /* Slightly larger text for readability */
+  line-height: 1.8;             /* More comfortable spacing */
+  color: #333;                  /* Softer dark gray for better contrast */
+}
+
+.modal-body ul {
+  margin: 20px 0 20px 30px;     /* Better spacing around list */
+  list-style-type: disc;
+}
+
+.modal-body li {
+  margin-bottom: 10px;          /* Space between bullet points */
+}
+
+/* --- Keep section titles centered --- */
+.modal-body h3,
+.modal-body h4 {
+  font-size: 24px;              /* Clear section headers */
+  text-align: center;           /* Centered titles */
+  color: #222;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/* --- Thumbnail and badge visuals --- */
+.modal-body a img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;           /* Smooth corners */
+  transition: transform 0.2s ease;
+}
+
+.modal-body a img:hover {
+  transform: scale(1.05);       /* Subtle zoom hover effect */
+}
+/* --- YouTube thumbnail with comfortable spacing --- */
+.modal-body a.youtube-thumb img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto 60px auto; /* Top and bottom spacing increased */
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.modal-body a.youtube-thumb img:hover {
+  transform: scale(1.05);
+}
+
+/* --- Keep (apple/google) Store badge large with proper spacing --- */
+.modal-body a.store-badge img {
+  width: 180px;                /* Keep original large size */
+  height: auto;
+  display: block;
+  margin: 25px auto 55px auto; /* Added bottom spacing (was 15px) */
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.modal-body a.store-badge img:hover {
+  transform: scale(1.05);
+}
+/* Force center align for project meta info */
+.portfolio-modal .modal-body .list-inline,
+.portfolio-modal .modal-body .project-details {
+  text-align: center !important;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.portfolio-modal .modal-body .list-inline li,
+.portfolio-modal .modal-body .project-details li {
+  display: inline-block !important;
+  float: none !important;
+  margin: 0 15px;
+}
+
+
+
+
+
 
 
 
