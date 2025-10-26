@@ -2,51 +2,53 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: realcarracing.png
-alt: Real Car Racing Thumbnail
-project-date: September 2023
-client: Indev Games 
-category: Game Development
+img: studentlearning.png
+alt: Student Learning App Thumbnail
+project-date: May 2025
+client: Game Creation Studio
+category: App Development
 description: |
-  ### 🚗 Real Car Racing: Fun Adventure  
+  ### 🎓 Student Learning App  
 
-  *Real Car Racing: Fun Adventure* is a thrilling **multiplayer and single-player racing game** built with the powerful RCC system. It combines exciting physics-based car handling with creative map mechanics that evolve as players progress through levels.
+  *Student Learning* is a comprehensive **education and assignment management app** developed for a **U.S.-based client (Game Creation Studio)**. The app bridges communication between **teachers and students** using an intuitive PlayFab-powered backend with seamless cloud data synchronization.
 
-  The game features **four unique maps**, each unlocking as players level up — and every map introduces a special gameplay twist:
+  The platform supports two user roles — **Teacher** and **Student**, each with their own dedicated workflow and tools:
 
   <div style="text-align:left; margin: 10px 0;">
-  • 💰 **Map 1 – Coin Rush:** Players collect coins scattered throughout the track.<br>
-  • 🌀 **Map 2 – Portal Run:** Teleport through start and end portals to skip sections of the race.<br>
-  • ⚠️ **Map 3 – Spike Zone:** Avoid road spikes that slow you down and challenge your control.<br>
-  • 🚀 **Map 4 – Ramp Boost:** Collect ramps and activate the **Ramp Button** to spawn a ramp that launches your car forward for a high-speed leap!<br>
+  • 👩‍🏫 **Teacher Mode:** Teachers can create multiple subjects, each with unique **subject codes**. They can view students enrolled in their classes, monitor progress, and check submission details for every unit and assignment.<br>
+  • 👨‍🎓 **Student Mode:** Students can log in, enroll using the **teacher name** and **subject code**, and complete assignments in structured sequences.<br>
+  • 🧩 **Assignment Structure:** Each subject contains **20 units**, every unit has **20 assignments**, and each assignment includes **30 questions** — designed for progressive learning.<br>
+  • 📬 **Messaging System:** Enables teachers and students to communicate directly. Teachers can send feedback such as *“Needs improvement”*, and students receive messages in their app dashboard.<br>
+  • ⏱️ **Detailed Submission Tracking:** Teachers can view which questions were answered correctly or incorrectly, along with **submission date, time, and performance summary**.<br>
   </div>
 
-  The game also includes **in-app purchases** and a **smart ad system** integrating both **AppLovin** and **AdMob** — ensuring smooth ad serving and better revenue performance. If one ad network fails to load due to excessive requests, the other automatically takes over.
+  This project showcases my experience in **PlayFab integration**, **user authentication systems**, **cloud-based data storage**, and **interactive education platform design**. The result is a full-featured learning ecosystem that simplifies remote teaching and student performance tracking.
 
   ---
 
-  #### 🏢 Developed at  
-  <div style="text-align:center; margin-bottom:10px;">
-    <a href="https://play.google.com/store/apps/dev?id=5098086919552643266&hl=en" target="_blank">
-      <img src="https://play-lh.googleusercontent.com/5xfRPBKIeOt3OZwOoTTY-m9i1U3lW26WVxaXS1yHP7Oung5V0_kwHP2bDorunyuYPw=w3840-h2160" width="260" alt="Skylab Studios Logo">
-    </a>
+  #### 🏢 Developed for  
+  <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:10px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_thumbnail.jpg" width="160" alt="Game Creation Studio Logo">
+    <p style="margin-top:8px; font-weight:600;">
+      <a href="#" style="color:inherit; text-decoration:none;">Game Creation Studio (USA)</a>
+    </p>
   </div>
+
+
 
   ---
 
-  #### 📱 Available on Google Play  
+  #### 🧠 Key Technologies Used  
   <div style="text-align:center;">
-    <a href="https://play.google.com/store/apps/details?id=com.SkylabStudios.CarRacing&hl=en" target="_blank" class="store-badge">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
-    </a>
+    <p>Unity Engine • PlayFab Cloud Services • C# Scripting • Data Management • Firebase Messaging</p>
   </div>
 
   ---
 
-  #### 🎥 Gameplay Video  
+  #### 🎥 App Showcase  
   <div style="text-align:center;">
-    <a href="https://www.youtube.com/watch?v=iGjI_BL-yfc&t=28s" target="_blank" class="youtube-thumb">
-      <img src="https://img.youtube.com/vi/iGjI_BL-yfc/maxresdefault.jpg" alt="Real Car Racing Gameplay Thumbnail">
+    <a href="https://youtu.be/AEPs5MtRjMw" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/AEPs5MtRjMw/maxresdefault.jpg" alt="Student Learning App Video Thumbnail">
     </a>
   </div>
 ---
