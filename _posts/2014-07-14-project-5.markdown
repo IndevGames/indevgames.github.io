@@ -2,52 +2,53 @@
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: smashballs.png
-alt: Smash Balls Thumbnail
-project-date: August 2023
-client: Indev Games
+img: ballhope.png
+alt: Ball Hope Thumbnail
+project-date: June 2025
+client: GCS (USA Client)
 category: Game Development
 description: |
-  ### 🌀 Smash Balls – Hit and Roll  
+  ### 🏀 Ball Hope  
 
-  *Smash Balls – Hit and Roll* is a fast-paced **arcade destruction game** where players control a rolling ball that smashes through walls of blocks. As the levels progress, the number and strength of blocks increase — pushing the player’s reflexes and timing to the limit.
+  *Ball Hope* is an addictive **arcade tap game** developed for **Game Creation Studio (USA)** through Fiverr. The game challenges players to **bounce a ball through obstacles** and land it into moving baskets to earn points — a simple yet deeply satisfying gameplay loop that gets more challenging as the player advances.  
 
-  The gameplay focuses on fluid motion, satisfying destruction, and exciting progression. Players can unlock **different balls** and **dynamic backgrounds**, giving each session a fresh and personalized feel.  
+  Each level is uniquely designed with increasing difficulty, requiring precise timing and focus to score high. The intuitive **tap-to-jump mechanic** ensures that players can quickly get into the rhythm while facing a variety of **dynamic obstacles and moving hoops**.  
 
-  Along the way, players collect powerful boosters that change the flow of the game:
+  Players can also **customize their character**, giving a personal touch to their experience. The game features **PlayFab integration**, allowing for **real-time leaderboards** where players compete globally to reach the top score.
 
   <div style="text-align:left; margin: 10px 0;">
-  • ⚡ **Booster:** Temporarily increases the ball’s speed for rapid destruction.<br>
-  • 🧱 **Blocker:** Breaks through **1 unbreakable block**, clearing tough obstacles.<br>
-  • 💖 **Health Power-Up:** Smashes **10 blocks instantly**, giving a burst of progress.<br>
+  • 🏀 **Tap & Bounce:** Simple, one-tap gameplay with increasing difficulty.<br>
+  • 🎯 **Basket Challenge:** Aim and shoot the ball into hoops while dodging obstacles.<br>
+  • 👕 **Customization:** Unlock and personalize your ball or character.<br>
+  • 🌍 **Leaderboard Integration:** Built with **PlayFab**, showcasing global scores.<br>
+  • 💰 **Monetization Ready:** Supports **ads** and **in-app purchases** for extended features.<br>
   </div>
 
-  The game also integrates a **smart ad system** featuring **dual SDKs (AppLovin & AdMob)** to ensure seamless ad delivery and optimized revenue. Additionally, it supports **in-app purchases**, allowing players to enhance their experience and unlock exclusive content.
+  This project highlights my experience in **arcade physics design**, **UI polish**, and **PlayFab leaderboard integration**, bringing together simplicity and skill-based fun.
 
   ---
-
-  #### 🏢 Developed at  
-  <div style="text-align:center; margin-bottom:10px;">
-    <a href="https://play.google.com/store/apps/dev?id=5098086919552643266&hl=en" target="_blank">
-      <img src="https://play-lh.googleusercontent.com/5xfRPBKIeOt3OZwOoTTY-m9i1U3lW26WVxaXS1yHP7Oung5V0_kwHP2bDorunyuYPw=w3840-h2160" width="260" alt="Skylab Studios Logo">
-    </a>
+  
+  #### 🏢 Developed for  
+  <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:10px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_thumbnail.jpg" width="160" alt="Game Creation Studio Logo">
+    <p style="margin-top:8px; font-weight:600;">
+      <a href="#" style="color:inherit; text-decoration:none;">Game Creation Studio (USA)</a>
+    </p>
   </div>
-
+  
   ---
-
-  #### 📱 Available on Google Play  
+  
+  #### 📱 Coming Soon on Google Play  
   <div style="text-align:center;">
-    <a href="https://play.google.com/store/apps/details?id=com.HolloGames.SmashBallCrashPlatforms&hl=en" target="_blank" class="store-badge">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
-    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" target="_blank" class="store-badge" alt="Coming Soon on Google Play" style="opacity:0.5;">
   </div>
 
   ---
 
   #### 🎥 Gameplay Video  
   <div style="text-align:center;">
-    <a href="https://www.youtube.com/watch?v=5u1wdizYDdg" target="_blank" class="youtube-thumb">
-      <img src="https://img.youtube.com/vi/5u1wdizYDdg/maxresdefault.jpg" alt="Smash Balls Gameplay Thumbnail">
+    <a href="https://youtu.be/3lB2J6cscFk" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/3lB2J6cscFk/maxresdefault.jpg" alt="Ball Hope Gameplay Thumbnail">
     </a>
   </div>
 ---

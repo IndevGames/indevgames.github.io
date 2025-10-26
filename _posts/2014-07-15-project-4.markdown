@@ -5,7 +5,7 @@ date: 2014-07-15
 img: studentlearning.png
 alt: Student Learning App Thumbnail
 project-date: May 2025
-client: Game Creation Studio
+client: GCS (USA Client)
 category: App Development
 description: |
   ### 🎓 Student Learning App  

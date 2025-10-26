@@ -1,0 +1,53 @@
+---
+layout: default
+modal-id: 8
+date: 2014-07-11
+img: smashballs.png
+alt: Smash Balls Thumbnail
+project-date: August 2023
+client: Indev Games
+category: Game Development
+description: |
+  ### 🌀 Smash Balls – Hit and Roll  
+
+  *Smash Balls – Hit and Roll* is a fast-paced **arcade destruction game** where players control a rolling ball that smashes through walls of blocks. As the levels progress, the number and strength of blocks increase — pushing the player’s reflexes and timing to the limit.
+
+  The gameplay focuses on fluid motion, satisfying destruction, and exciting progression. Players can unlock **different balls** and **dynamic backgrounds**, giving each session a fresh and personalized feel.  
+
+  Along the way, players collect powerful boosters that change the flow of the game:
+
+  <div style="text-align:left; margin: 10px 0;">
+  • ⚡ **Booster:** Temporarily increases the ball’s speed for rapid destruction.<br>
+  • 🧱 **Blocker:** Breaks through **1 unbreakable block**, clearing tough obstacles.<br>
+  • 💖 **Health Power-Up:** Smashes **10 blocks instantly**, giving a burst of progress.<br>
+  </div>
+
+  The game also integrates a **smart ad system** featuring **dual SDKs (AppLovin & AdMob)** to ensure seamless ad delivery and optimized revenue. Additionally, it supports **in-app purchases**, allowing players to enhance their experience and unlock exclusive content.
+
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://play.google.com/store/apps/dev?id=5098086919552643266&hl=en" target="_blank">
+      <img src="https://play-lh.googleusercontent.com/5xfRPBKIeOt3OZwOoTTY-m9i1U3lW26WVxaXS1yHP7Oung5V0_kwHP2bDorunyuYPw=w3840-h2160" width="260" alt="Skylab Studios Logo">
+    </a>
+  </div>
+
+  ---
+
+  #### 📱 Available on Google Play  
+  <div style="text-align:center;">
+    <a href="https://play.google.com/store/apps/details?id=com.HolloGames.SmashBallCrashPlatforms&hl=en" target="_blank" class="store-badge">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+    </a>
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+    <a href="https://www.youtube.com/watch?v=5u1wdizYDdg" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/5u1wdizYDdg/maxresdefault.jpg" alt="Smash Balls Gameplay Thumbnail">
+    </a>
+  </div>
+---
