@@ -1,0 +1,50 @@
+---
+layout: default
+modal-id: 9
+date: 2014-07-10
+img: tictactoe.png
+alt: Tic Tac Toe Thumbnail
+project-date: October 2023
+client: Aptech Media
+category: Game Development
+description: |
+  ### ❌⭕ Tic Tac Toe – Interactive Large-Screen Edition  
+
+  *Tic Tac Toe* was developed entirely from scratch at **[Aptech Media](https://aptechmedia.com)** for a client project designed for **interactive large screens** used in children’s activity centers.  
+  While the concept of Tic Tac Toe is classic, this version required a **custom-built input system** to solve a unique real-world problem — **rapid multi-touch triggering** caused by oversized interactive displays.
+
+  The challenge was that these large screens registered **multiple rapid taps** when users placed their hands on them. To fix this, I implemented a **manual touch-priority system**, ensuring that:
+  
+  - The **first valid touch** registers immediately.  
+  - Any **subsequent touches** are ignored until the player releases their hand.  
+
+  This solution allowed smooth, fair gameplay for two players even under noisy touch input conditions — a critical requirement for reliable large-screen interaction.
+
+  The game also features **three dynamic difficulty modes**:
+  
+  <div style="text-align:left; margin: 10px 0;">
+  • 🟩 **Easy Mode:** Standard static grid — traditional Tic Tac Toe experience.<br>
+  • 🟨 **Medium Mode:** Static grid, but with **replaceable symbols** allowing more strategic moves.<br>
+  • 🟥 **Hard Mode:** Floating grid with **movable tiles**, increasing challenge and requiring precision touch.<br>
+  </div>
+
+  This project demonstrates my ability to **design adaptive interaction systems** and handle **hardware-specific challenges** — combining creativity, input handling, and user experience design.
+
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://aptechmedia.com" target="_blank">
+      <img src="https://media.licdn.com/dms/image/v2/C510BAQFGavHi2YzPAg/company-logo_200_200/company-logo_200_200/0/1630584984706/aptechmedia_logo?e=1762387200&v=beta&t=ogc5ZI2kOvGCbbJzmLQ1LE9p8cFCIqDGa_YD6xxtnME" width="160" alt="Aptech Media Logo">
+    </a>
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+    <a href="https://youtu.be/EdCCXxQMLkk?si=NrPOe0Ha4kiQ8Wkp" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/EdCCXxQMLkk/maxresdefault.jpg" alt="Tic Tac Toe Gameplay Thumbnail">
+    </a>
+  </div>
+---
