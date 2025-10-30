@@ -6,7 +6,7 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-  $('.page-scroll a').bind('click', function(event) {
+  $('.page-scroll a').on('click', function(event) {
     var $anchor = $(this);
     var target = $($anchor.attr('href'));
 
@@ -14,26 +14,30 @@ $(function() {
       var windowHeight = $(window).height();
       var targetHeight = target.outerHeight();
       var targetOffset = target.offset().top;
-
       var scrollTo;
+
+      // Calculate target scroll position
       if ($anchor.attr('href') === '#page-top') {
-        // Scroll exactly to the top when clicking your name/logo
         scrollTo = 0;
       } else {
-        // Center other sections in the viewport
         scrollTo = targetOffset - (windowHeight / 2) + (targetHeight / 2);
       }
 
+      // Prevent scrolling if already near the target (within 10px threshold)
+      if (Math.abs($(window).scrollTop() - scrollTo) < 10) {
+        event.preventDefault();
+        return;
+      }
+
+      // Smooth scroll to target
       $('html, body').stop().animate({
         scrollTop: scrollTo
       }, 1200, 'easeInOutExpo');
+
       event.preventDefault();
     }
   });
 });
-
-
-
 
 // Floating label headings for the contact form
 $(function() {
