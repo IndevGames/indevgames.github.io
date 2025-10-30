@@ -15,8 +15,14 @@ $(function() {
       var targetHeight = target.outerHeight();
       var targetOffset = target.offset().top;
 
-      // Calculate position so section appears vertically centered
-      var scrollTo = targetOffset - (windowHeight / 2) + (targetHeight / 2);
+      var scrollTo;
+      if ($anchor.attr('href') === '#page-top') {
+        // Scroll exactly to the top when clicking your name/logo
+        scrollTo = 0;
+      } else {
+        // Center other sections in the viewport
+        scrollTo = targetOffset - (windowHeight / 2) + (targetHeight / 2);
+      }
 
       $('html, body').stop().animate({
         scrollTop: scrollTo
@@ -25,6 +31,7 @@ $(function() {
     }
   });
 });
+
 
 
 
