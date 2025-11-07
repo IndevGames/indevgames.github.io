@@ -1,0 +1,51 @@
+---
+layout: default
+modal-id: 10
+date: 2014-07-09
+img: MyGame.png
+alt: Inspired by Max Payne Gameplay Thumbnail
+project-date: October 2025
+client: Indev Games
+category: Game Development
+description: |
+  ### 🔫 Max Payne–Inspired Action Game (Hobby Project)
+
+  This project is a personal hobby and a long-time dream inspired by the iconic **Max Payne** series. Built completely from scratch, the game focuses on stylish third-person action, fluid controls, and cinematic gunplay—powered by the **Unity New Input System**, currently working on both mobile and PC, with easy extension for other controllers.
+
+  The prototype already includes responsive shooting, melee, and dramatic action features:
+
+  <div style="text-align:left; margin: 10px 0;">
+  • 🔫 **Pistol Combat:** Smooth and responsive shooting with slow-motion dodge-and-shoot inspired by *Max Payne*.<br><br>
+  • 🦾 **Bat Melee Weapon:** Basic close-range attacks with hit detection and damage (cinematic features coming later).<br><br>
+  • 🎥 **John Wick–Style Executions:** Dynamic execution system featuring camera arcs, punch zooms, screen shake, and blood-paint effects on hit areas.<br><br>
+  • 🧱 **Stylish Cover Pistol Pose:** A character pose system that changes pistol handling when in cover.<br>
+  </div>
+
+  More weapons, abilities, enemy types, and cinematic effects are planned as the project continues to grow.
+
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://play.google.com/store/apps/dev?id=5098086919552643266&hl=en" target="_blank">
+      <img src="https://play-lh.googleusercontent.com/5xfRPBKIeOt3OZwOoTTY-m9i1U3lW26WVxaXS1yHP7Oung5V0_kwHP2bDorunyuYPw=w3840-h2160" width="260" alt="Skylab Studios Logo">
+    </a>
+  </div>
+
+  ---
+
+  #### 📱 Coming Soon on Google Play  
+  <div style="text-align:center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" target="_blank" class="store-badge" alt="Coming Soon on Google Play" style="opacity:0.5;">
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+    <a href="https://youtu.be/jd7eUUcrsfU" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/jd7eUUcrsfU/maxresdefault.jpg" alt="Inspired by Max Payne Gameplay Thumbnail">
+    </a>
+  </div>
+
+---
