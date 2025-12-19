@@ -40,12 +40,19 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: unity
-    url: https://discussions.unity.com/u/gamesartstudio
   - title: linkedin
     url: https://www.linkedin.com/in/muhammad-adil-253502233
+
   - title: github
     url: https://github.com/IndevGames
+
+  - title: fiverr
+    url: https://www.fiverr.com/s/qD7NArd
+    class: icon-fiverr   # custom CSS class
+    
+  - title: upwork
+    url: https://www.upwork.com/freelancers/~01c6bfc7588d3c4386
+    class: icon-upwork   # custom CSS class
 
 # Postal address (add as many lines as necessary)
 address:

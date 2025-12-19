@@ -641,7 +641,30 @@ footer .footer-below {
   float: none !important;
   margin: 0 15px;
 }
+/* Logo class for fiverr and Upwork for find me section as these two doesn't supported by awesome fonts.*/
+.icon-upwork {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('/assets/icons/upwork.svg') no-repeat center;
+  background-size: contain;
+  filter: brightness(0) invert(1); /* makes black logos appear white */
+}
+.btn-outline:hover .icon-upwork {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(100%) saturate(6000%) hue-rotate(200deg) brightness(95%) contrast(90%);
+}
+.icon-fiverr {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('/assets/icons/fiverr.svg') no-repeat center;
+  background-size: contain;
+  filter: brightness(0) invert(1); /* makes black logos appear white */
 
+}
+.btn-outline:hover .icon-fiverr {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(92%) saturate(400%) hue-rotate(110deg) brightness(95%) contrast(90%);
+}
 
 
 
