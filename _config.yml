@@ -32,10 +32,10 @@ color:
 
 # Footer settings
 footer:
-  copyright: Muhammad Adil © 2025
-  location: Peshawar, Pakistan
+  copyright: Muhammad Adil ©
+  location: Islamabad, Pakistan
   social: Find Me Online
-  credits: Designed with ❤️ using the Freelancer Jekyll Theme
+  credits: Designed using the Freelancer Jekyll Theme
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -56,7 +56,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Peshawar, Pakistan
+  - line: Islamabad, Pakistan
   - line: Open to remote & international opportunities
 
 # Credits content

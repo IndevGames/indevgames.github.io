@@ -1,0 +1,15 @@
+- icon: fa-gamepad
+  title: Unity
+  blurb: Animator state machines, input-driven combos, root motion workflows
+
+- icon: fa-code
+  title: C#
+  blurb: Event-driven architecture, Scriptable Objects, clean code
+
+- icon: fa-cubes
+  title: Backend
+  blurb: PlayFab auth, leaderboards, player data, cloud integration
+
+- icon: fa-mobile
+  title: Mobile
+  blurb: Optimization for iOS/Android: memory, draw calls, GC tuning

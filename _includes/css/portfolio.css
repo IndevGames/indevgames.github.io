@@ -1,0 +1,35 @@
+/* =========================
+   PORTFOLIO SECTION
+   ========================= */
+
+#portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+#portfolio .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+}
+
+#portfolio .caption {
+  position: absolute;
+  inset: 0;
+  background: rgba({{ site.color.primary-rgb }}, .9);
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+#portfolio .caption:hover {
+  opacity: 1;
+}
+
+#portfolio .caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}

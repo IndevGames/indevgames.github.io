@@ -1,0 +1,137 @@
+/* =========================
+   GLOBAL FOUNDATION
+   ========================= */
+
+body {
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 20px;
+}
+
+p.small {
+  font-size: 16px;
+}
+
+/* Links */
+a,
+a:hover,
+a:focus,
+a:active {
+  outline: 0;
+  color: #{{ site.color.primary }};
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+/* Section spacing */
+section {
+  padding: 100px 0;
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+}
+
+/* Section titles */
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+/* Utilities */
+.img-centered {
+  margin: 0 auto;
+}
+
+/* =========================
+   STAR DIVIDERS (REUSED)
+   ========================= */
+
+hr.star-light,
+hr.star-primary {
+  margin: 25px auto 30px;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
+  overflow: visible;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -0.8em;
+  padding: 0 0.25em;
+}
+
+hr.star-light {
+  border-color: #fff;
+}
+
+hr.star-light:after {
+  color: #fff;
+  background-color: #{{ site.color.primary }};
+}
+
+hr.star-primary {
+  border-color: #{{ site.color.secondary }};
+}
+
+hr.star-primary:after {
+  color: #{{ site.color.secondary }};
+  background-color: #fff;
+}
+
+/* =========================
+   BUTTONS (GLOBAL)
+   ========================= */
+
+.btn-outline {
+  margin-top: 15px;
+  border: 2px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus {
+  background-color: #fff;
+  color: #{{ site.color.primary }};
+}
+
+/* Social icons */
+.btn-social {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+  display: inline-block;
+}
+
+/* =========================
+   MODAL BASE
+   ========================= */
+
+.portfolio-modal .modal-content {
+  padding: 100px 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
