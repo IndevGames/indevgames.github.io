@@ -33,3 +33,144 @@
   text-align: center;
   color: #fff;
 }
+/* =========================
+   PORTFOLIO MODAL
+   ========================= */
+
+.portfolio-modal .modal-content {
+  padding: 100px 0;
+  min-height: 100%;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  background-clip: border-box;
+  box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+  margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+.portfolio-modal .close-modal .lr {
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  background-color: #{{ site.color.secondary }};
+  transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+  z-index: 1052;
+  width: 1px;
+  height: 75px;
+  background-color: #{{ site.color.secondary }};
+  transform: rotate(90deg);
+}
+
+/* Modal description typography */
+.modal-body p,
+.modal-body ul,
+.modal-body li {
+  text-align: left !important;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.modal-body ul {
+  margin: 20px 0 20px 30px;
+  list-style-type: disc;
+}
+
+.modal-body li {
+  margin-bottom: 10px;
+}
+
+.modal-body h3,
+.modal-body h4 {
+  font-size: 24px;
+  text-align: center;
+  color: #222;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.modal-body a img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.modal-body a img:hover {
+  transform: scale(1.05);
+}
+
+/* YouTube videos */
+.modal-body a.youtube-thumb img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto 60px auto;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.modal-body a.youtube-thumb img:hover {
+  transform: scale(1.05);
+}
+
+/* App store badges */
+.modal-body a.store-badge img {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 25px auto 55px auto;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.modal-body a.store-badge img:hover {
+  transform: scale(1.05);
+}
+
+/* Project meta info centering */
+.portfolio-modal .modal-body .list-inline,
+.portfolio-modal .modal-body .project-details {
+  text-align: center !important;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.portfolio-modal .modal-body .list-inline li,
+.portfolio-modal .modal-body .project-details li {
+  display: inline-block !important;
+  float: none !important;
+  margin: 0 15px;
+}
