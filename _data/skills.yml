@@ -12,4 +12,4 @@
 
 - icon: fa-mobile
   title: Mobile
-  blurb: Optimization for iOS/Android: memory, draw calls, GC tuning
+  blurb: Optimization for iOS/Android memory, draw calls, GC tuning

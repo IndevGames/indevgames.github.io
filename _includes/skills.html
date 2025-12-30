@@ -8,18 +8,21 @@
       </div>
     </div>
 
-    <div class="row text-center">
-      {% for skill in site.data.skills %}
-      <div class="col-md-3 col-sm-6">
+  <div class="row text-center">
+  {% for skill in site.data.skills %}
+    <div class="col-md-3 col-sm-6">
+      <div class="skill-card">
         <i class="fa {{ skill.icon }} fa-3x text-primary"></i>
         <h4 class="service-heading">{{ skill.title }}</h4>
         <p class="text-muted">{{ skill.blurb }}</p>
       </div>
-      {% endfor %}
     </div>
+  {% endfor %}
+  </div>
+
 
     <div class="row text-center" style="margin-top: 30px;">
-      <a href="/skills" class="btn btn-success btn-lg">View all skills</a>
+      <a href="/skills" class="btn btn-success btn-lg btn-skills">View all skills</a>
     </div>
   </div>
 </section>
