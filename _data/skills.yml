@@ -1,15 +1,124 @@
 - icon: fa-gamepad
   title: Unity
   blurb: Animator state machines, input-driven combos, root motion workflows
+  description: >
+    A clean animator setup that brings gameplay to life. With input‑driven combos, 
+    layered states, and polished root motion, characters move fluidly, feel believable, 
+    and the structure stays flexible for future expansion.
+  subcards:
+    - subtitle: Using Sub Layers
+      image: /img/skills/animator-layers.png
+      details:
+        - Unlock realistic behaviors by dividing animation into upper body, lower body,only arms, and full body layers.
+        - Upper body layers handle weapon drawing and aiming independently.
+        - Full body layers drive attacks and combo sequences with cinematic flow.
+        - Base layer anchors locomotion and jumps for consistent movement.
+        - Only arms Override arms selectively to adapt animations when the player equips weapons.
+    - subtitle: Sub-State Architecture
+      image: /img/skills/animator-substates.png
+      details:
+        - Organized attack logic into clean sub-state machines for strong and weak attacks.
+        - Nested weapon-specific flows keep animations modular and easy to expand.
+        - Each weapon has its own tailored attack states, combos, and transitions.
+        - Reduces complexity and improves readability across the animator.
+        - Enables scalable combat systems with minimal rework.
+    - subtitle: Clean State Transitions
+      image: /img/skills/animator-transitions.png
+      details:
+        - Each attack state flows in a clear sequence with defined entry and exit points.
+        - Avoids tangled transitions by isolating logic per weapon and attack type.
+        - Uses clean exit states instead of looping or cross-wired transitions.
+        - Keeps the animator readable and easy to debug.
+        - Prevents spaghetti-style logic that breaks scalability and responsiveness.
+    - subtitle: StateMachineBehaviour Events
+      image: /img/skills/statemachinebehaviour.png
+      details:
+        - Triggers gameplay events directly from Animator states without bloating MonoBehaviours.
+        - Separates animation timing logic from core scripts for cleaner architecture.
+        - Handles enter, update, and exit events at precise animation points.
+        - Enables modular effects like particles, sounds, or combo resets tied to animation flow.
+        - Keeps combat systems responsive and codebase maintainable.
+    - subtitle: Scriptable Object Architecture
+      image: /img/skills/scriptable-objects.png
+      details:
+        - Designed modular data containers to separate configuration from gameplay logic.
+        - Enables flexible systems for abilities, weapons, UI, and animation without hardcoding.
+        - Works seamlessly with events and state machines for clean extensibility.
+        - Allows designers to tweak values without touching code, improving collaboration.
+        - Keeps projects scalable, maintainable, and free from bloated MonoBehaviours.
 
 - icon: fa-code
   title: C#
   blurb: Event-driven architecture, Scriptable Objects, clean code
+  description: >
+    Event-driven architecture with Scriptable Objects and clean, maintainable code practices.
+  subcards:
+    - subtitle: Design Patterns
+      image: /img/skills/design-patterns.png
+      details:
+        - Implemented the Observer Pattern using ScriptableObjects for modular event handling.
+        - Created a custom `GameEvent` system that decouples event logic from listeners.
+        - Enables scalable gameplay triggers without hard dependencies or bloated MonoBehaviours.
+        - Supports clean communication between systems like UI, combat, and audio.
+        - Demonstrates practical use of design patterns in Unity with clean C# architecture.
+    - subtitle: SOLID Principles
+      image: /img/skills/solid.png
+      details:
+        - Applied Single Responsibility by isolating combat input logic from animation and weapon systems.
+        - Used interfaces (`IMeleeFighter`, `IActivaterIK`) to keep systems flexible and decoupled.
+        - Encapsulated combat state checks for clean access and maintainability.
+        - Designed extensible architecture that supports future features without modifying core logic.
+        - Demonstrates practical use of SOLID principles in real-world Unity gameplay systems.
+    - subtitle: Runtime Sets
+      image: /img/skills/runtime-sets.png
+      details:
+        - Built a generic `RuntimeSetSO<T>` system for managing runtime collections in a clean, reusable way.
+        - Keeps track of active objects (e.g., players, enemies) without hard dependencies.
+        - Uses ScriptableObjects to separate runtime state from MonoBehaviours.
+        - Provides safe add/remove logic to prevent duplication or errors.
+        - Demonstrates generic programming and scalable architecture in Unity with C#.
 
 - icon: fa-cubes
   title: Backend
   blurb: PlayFab auth, leaderboards, player data, cloud integration
+  description: >
+    Backend integration with PlayFab and Firebase, including authentication, leaderboards, and cloud data.
+  subcards:
+    - subtitle: Authentication
+      image: /img/skills/authentication.png
+      details:
+        - Implemented secure login and registration flow using email, password, and role-based access.
+        - Designed scalable account system supporting multiple user types and persistent sessions.
+        - Integrated backend validation to protect user data and prevent unauthorized access.
+        - Ensured smooth onboarding with clean UI and intuitive input handling.
+    - subtitle: Leaderboards
+      image: /img/skills/leaderboards.png
+      details:
+        - Built dynamic leaderboard system synced with backend servers for real-time score tracking.
+        - Supports global and local ranking with player avatars, names, and trophy indicators.
+        - Designed efficient data sync and caching to minimize latency and server load.
+        - Integrated anti-cheat checks and score validation to ensure fair competition.
+        - Provides seamless UI experience with interactive elements like renaming and avatar selection.
+    - subtitle: Smart Ads System
+      image: /img/skills/smart-ads.png
+      details:
+        - Integrated multiple ad SDKs (AdMob, AppLovin, Unity Ads) with dynamic fallback logic.
+        - Built a modular AdsManager system with priority selection and controller references.
+        - Ensured consistent ad delivery even when one provider fails or throttles.
+        - Designed for scalability, allowing easy addition of new SDKs or mediation layers.
+        - Balanced monetization and user experience with clean UI and backend control.
 
 - icon: fa-mobile
   title: Mobile
   blurb: Optimization for iOS/Android memory, draw calls, GC tuning
+  description: >
+    Mobile optimization techniques for iOS and Android, focusing on performance and memory management.
+  subcards:
+  - subtitle: Mobile & Multiplatform Optimization
+    image: /img/skills/multiplatform.png
+    details:
+      - Optimized Unity projects for smooth performance across iOS and Android devices, including submission compliance.
+      - Applied platform‑specific build settings, compression, and profiling for mobile deployment.
+      - Delivered PC‑only builds with tailored graphics, input systems, and performance tuning.
+      - Prepared console‑only builds with certification requirements, controller support, and platform guidelines.
+      - Ensured scalable workflows for multiplatform development, balancing performance, quality, and submission standards.
