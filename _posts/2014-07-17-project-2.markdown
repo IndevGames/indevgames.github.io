@@ -31,7 +31,7 @@ description: |
   #### 🏢 Developed at  
   <div style="text-align:center; margin-bottom:10px;">
     <a href="https://aptechmedia.com" target="_blank">
-      <img src="https://media.licdn.com/dms/image/v2/C510BAQFGavHi2YzPAg/company-logo_200_200/company-logo_200_200/0/1630584984706/aptechmedia_logo?e=1762387200&v=beta&t=ogc5ZI2kOvGCbbJzmLQ1LE9p8cFCIqDGa_YD6xxtnME" width="160" alt="Aptech Media Logo">
+      <img src="https://aptechmedia.com/static/media/logo.656039e088878c7a1e2f.png" width="160" alt="Aptech Media Logo">
     </a>
   </div>
 

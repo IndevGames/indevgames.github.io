@@ -1,0 +1,12 @@
+/* =========================
+   ABOUT SECTION
+   ========================= */
+
+#about {
+  color: #fff;
+  background: #{{ site.color.primary }};
+}
+
+#about p {
+  font-size: 20px;
+}

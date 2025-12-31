@@ -29,7 +29,7 @@ description: |
   #### 🏢 Developed at  
   <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:10px;">
     <a href="https://www.linkedin.com/company/metal-heart-game-studios/?originalSubdomain=pk" target="_blank">
-      <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFBaMylObP72g/company-logo_200_200/company-logo_200_200/0/1656664962281?e=1762992000&v=beta&t=RakcbLRCjd0Kwb6XHMrZjxDz_EOJSjolGrtb86aRj0E" width="160" alt="Metal Heart Studio Logo">
+      <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFBaMylObP72g/company-logo_200_200/company-logo_200_200/0/1656664962281?e=1768435200&v=beta&t=2lNCBQXG5FK3gSryqgh5xfeiNIv-GVvMsAqxjblVAqI" width="160" alt="Metal Heart Studio Logo">
     </a>
   </div>
 
