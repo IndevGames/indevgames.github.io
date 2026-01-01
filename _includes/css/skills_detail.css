@@ -164,3 +164,19 @@
   padding-left: 0;        /* remove left gap */
   padding-right: 0;       /* remove right gap */
 }
+@media (max-width: 768px) {
+  /* Stack subcards vertically on mobile */
+  #skills-detail .skill-card .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  #skills-detail .skill-card .row {
+    gap: 0; /* remove horizontal gap between stacked items */
+  }
+
+  #skills-detail .subcard {
+    margin-bottom: 30px; /* extra spacing between stacked cards */
+  }
+}
