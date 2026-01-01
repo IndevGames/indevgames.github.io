@@ -10,12 +10,23 @@
   margin-bottom: 8px;
   color: #{{ site.color.primary }};
 }
-#skills .btn:hover,
-#skills .btn:focus {
+/* Hover = your secondary color */
+#skills .btn:hover {
   background-color: #{{ site.color.secondary }} !important;
   border-color: #{{ site.color.secondary }} !important;
   color: #fff !important;
 }
+
+/* Focus = restore primary blue */
+.btn-skills:focus,
+.btn-skills:active {
+  background-color: #{{ site.color.primary }} !important; /* Bootstrap 3 primary */
+  border-color: #{{ site.color.primary }} !important;
+  color: #fff !important;
+  outline: none;
+  box-shadow: none;
+}
+
 .skill-card {
   background: #fff;
   border-radius: 8px;
