@@ -56,8 +56,28 @@ $('body').scrollspy({
     offset: $('.navbar-fixed-top').outerHeight() + 500 // small extra buffer
 });
 
-
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+$(function() {
+  // When any portfolio modal opens
+  $('.portfolio-modal').on('show.bs.modal', function () {
+    const modalId = this.id;
+    history.pushState({ modal: modalId }, null, '#' + modalId);
+  });
+
+  // When any portfolio modal closes
+  $('.portfolio-modal').on('hide.bs.modal', function () {
+    if (history.state && history.state.modal === this.id) {
+      history.back(); // remove the modal state
+    }
+  });
+
+  // Handle back button
+  window.onpopstate = function (event) {
+    if (event.state && event.state.modal) {
+      $('#' + event.state.modal).modal('hide'); // close the specific modal
+    } else {
+      // No modal state → ensure all modals are closed
+      $('.portfolio-modal').modal('hide');
+    }
+  };
 });
