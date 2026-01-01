@@ -1,20 +1,16 @@
-<style>
 #skills-detail {
   background: #f9f9f9;
-  padding: 80px 0;
+  padding: 80px 0; /* override global section spacing */
 }
 
-/* Center the "All Skills" title and add the underline */
+/* Center the "All Skills" title */
 #skills-detail h2.section-heading {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center !important;   /* force centering even if parent sets text-left */
-  display: block;                   /* ensure it behaves like a block for margin auto */
+  text-align: center !important;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  font-size: 2.4em;   
-  color: #333;              /* optional: slightly larger for emphasis */
+  font-size: 2.4em;
+  color: #333;
   position: relative;
 }
 
@@ -26,75 +22,51 @@
   margin-bottom: 40px;
 }
 
-/* Main skill card */
+/* Main skill card: full width, one per row */
 #skills-detail .skill-card {
-  background: #eef2f7;        /* light tinted background */
-  border: 1px solid #dce3eb;  /* subtle border */
+  background: #eef2f7;
+  border: 1px solid #dce3eb;
   border-radius: 8px;
   padding: 20px;
-  margin-bottom: 30px;
+  margin:0 auto 30px;
   display: block;
-  overflow: hidden;
+  width: 98%;
+  max-width: none; 
 }
 
-/* Subcard row layout */
+/* Subcard row layout: two per row, centered */
 #skills-detail .skill-card .row {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  width: 100%;
-  justify-content: center;          /* ⬅️ Center items horizontally */
+  justify-content: center; /* center subcards horizontally */
 }
 
-
-/* Center the subcard inside each column */
+/* Each subcard column: half width */
 #skills-detail .skill-card .col-md-6 {
-  flex: 1 1 calc(50% - 20px);
+  flex: 0 0 calc(50% - 20px); /* two per row */
+  max-width: calc(50% - 20px);
   display: flex;
-  justify-content: center;          /* ⬅️ Center the subcard in the column */
+  justify-content: center;
 }
-/* Make sure the subcard itself doesn't fight centering */
+/* Disable hover effects on main skill cards */
+#skills-detail .skill-card:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+/* Subcard styling */
 #skills-detail .subcard {
-  margin: 0 auto;                   /* ⬅️ Allows auto-centering within flex item */
-}
-
-/* Card titles */
-#skills-detail .service-heading {
-  margin-top: 10px;
-  font-size: 1.25em;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: #333;
-}
-
-#skills-detail .fa {
-  margin-bottom: 8px;
-  color: #{{ site.color.primary }};
-}
-
-#skills-detail ul {
-  text-align: left;
-  margin-top: 15px;
-  font-size: 0.95em;
-  line-height: 1.6;
-}
-
-/* Subcards */
-#skills-detail .subcard {
-  background: #ffffff;        /* pure white for contrast */
+  background: #ffffff;
   border: 1px solid #eee;
   border-radius: 6px;
   padding: 15px;
   margin-bottom: 20px;
-  display: inline-flex;       /* ✅ shrink/grow based on content */
-  flex-direction: column;     /* stack content vertically */
-  align-items: center;        /* center horizontally */
-  justify-content: center;    /* center vertically if space allows */
-  text-align: center;         /* center text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-width: 100%;            /* never overflow parent */
+  width: 100%; /* fill its half-column */
 }
 
 #skills-detail .subcard img {
@@ -103,74 +75,92 @@
   margin-bottom: 10px;
 }
 
-/* Make the bullet list a vertical flex container and center it */
+/* Bullet list inside subcard */
 #skills-detail .subcard ul {
-  display: flex;              /* stack items with flex */
+  display: flex;
   flex-direction: column;
-  justify-content: center;    /* center bullets vertically within the subcard */
-  align-items: flex-start;    /* keep text left-aligned for readability */
-  width: 100%;                /* prevent narrow centering issues */
-  max-width: 680px;           /* optional: constrain width for nicer alignment */
-  margin: 10px auto 0;        /* center the list block itself */
-  text-align: left;           /* ensure bullet text is left-aligned */
+  align-items: flex-start;
+  width: 100%;
+  margin: 10px auto 0;
+  text-align: left;
 }
 
-
-/* Ensure each bullet spans full width for consistent alignment */
 #skills-detail .subcard ul li {
-  font-family: 'Inter', 'Rubik', 'Lato', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  display: block;             /* override inline-block */
+  font-family: 'Inter','Rubik','Lato',system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  display: block;
   width: 100%;
   position: relative;
   margin-bottom: 8px;
   padding-left: 18px;
 }
 
-
-/* Bullet dot stays aligned */
 #skills-detail .subcard ul li::before {
   content: "•";
   position: absolute;
   left: 0;
-  top: 0.1em;                 /* subtle vertical nudge for visual centering */
+  top: 0.1em;
   color: #{{ site.color.primary }};
   font-weight: bold;
 }
-
 
 #skills-detail .subcard:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
+/* Card titles */
+#skills-detail .service-heading {
+  margin-top: 10px;
+  font-size: 1.25em;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+/* Icon color */
+#skills-detail .fa {
+  margin-bottom: 8px;
+  color: #{{ site.color.primary }};
+}
+
+/* List styling */
+#skills-detail ul {
+  text-align: left;
+  margin-top: 15px;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
 /* Subcard heading */
 #skills-detail .sub-heading {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 1.1em;
   margin-bottom: 5px;
   color: #333;
 }
-/* Decorative underline for new page title */
-#skills-detail hr.star-primary {
-  margin: 25px auto 30px;
-  max-width: 250px;
-  border: 0;
-  border-top: solid 5px #{{ site.color.secondary }};
-  text-align: center;
-  overflow: visible;
+
+/* Decorative underline override */
+#skills-detail hr.star-primary:after {
+  background-color: #f9f9f9; /* match section bg */
 }
 
-hr.star-primary:after {
-  content: "\f005";              /* star glyph */
-  font-family: FontAwesome;      /* must match FA4.7 */
-  font-size: 2em;
-  position: relative;
-  top: -0.8em;
-  padding: 0 0.25em;
-  color: #{{ site.color.secondary }};
-  background-color: #f9f9f9;     /* match section bg */
+/* Modal overrides */
+#skillsModal .modal-dialog {
+  max-width: 95%;
+  width: 95%;
+  margin: auto;
 }
 
+#skillsModal .modal-content {
+  width: 100%;
+  background: #f9f9f9;
+  padding: 0;
+  box-shadow: none;
+}
 
-</style>
+#skillsModal .container {
+  width: 100%;
+  max-width: none;
+  padding: 80px 0;        /* keep vertical spacing */
+  padding-left: 0;        /* remove left gap */
+  padding-right: 0;       /* remove right gap */
+}

@@ -1,3 +1,4 @@
+<!-- Skills Section -->
 <section id="skills" class="bg-light">
   <div class="container">
     <div class="row">
@@ -8,21 +9,37 @@
       </div>
     </div>
 
-  <div class="row text-center">
-  {% for skill in site.data.skills %}
-    <div class="col-md-3 col-sm-6">
-      <div class="skill-card">
-        <i class="fa {{ skill.icon }} fa-3x text-primary"></i>
-        <h4 class="service-heading">{{ skill.title }}</h4>
-        <p class="text-muted">{{ skill.blurb }}</p>
+    <!-- Skill cards preview -->
+    <div class="row text-center">
+      {% for skill in site.data.skills %}
+      <div class="col-md-3 col-sm-6">
+        <div class="skill-card">
+          <i class="fa {{ skill.icon }} fa-3x text-primary"></i>
+          <h4 class="service-heading">{{ skill.title }}</h4>
+          <p class="text-muted">{{ skill.blurb }}</p>
+        </div>
       </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-  </div>
 
-
+    <!-- View all skills button -->
     <div class="row text-center" style="margin-top: 30px;">
-      <a href="/skills" class="btn btn-success btn-lg btn-skills">View all skills</a>
+      <a href="#skillsModal" class="btn btn-success btn-lg btn-skills" data-toggle="modal">
+        View all skills
+      </a>
     </div>
   </div>
 </section>
+
+<!-- Skills Modal -->
+<div class="portfolio-modal modal fade" id="skillsModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr"><div class="rl"></div></div>
+    </div>
+    <div class="container">
+      <!-- Include your full skills details design -->
+      {% include skills_details.html %}
+    </div>
+  </div>
+</div>
