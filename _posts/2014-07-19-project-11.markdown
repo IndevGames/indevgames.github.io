@@ -1,0 +1,54 @@
+---
+layout: default
+modal-id: 0
+date: 2014-07-19
+img: Action.png
+alt: Action Thumbnail
+project-date: January 2026
+client: Indev Games
+category: Game Development
+description: |
+  ### 🌀 Max Payne – Bullet Time  
+
+  *Dev Log – Third-Person Mechanics* is a hands-on **Unity project** where I built cinematic gameplay inspired by the classic bullet-time style. The goal was to create mechanics that feel exciting, polished, and easy for players to enjoy.  
+
+  The focus is on smooth dodging, precise aiming, and immersive audio-visual effects — showing how I combine **technical skills with creative design** to deliver a complete experience.  
+
+  <div style="text-align:left; margin: 10px 0;">  
+  • ⏱ **Slow Motion Dodge:** Added time-slowing effects for that iconic bullet-time feel.<br>  
+  • 🎥 **Cinematic Camera:** Used Dutch angles and zooms to give every move a movie-like look.<br>  
+  • 🔊 **Audio Design:** Built layered sound effects — bullets flying by, casings hitting the ground, and tension-building audio.<br>  
+  • 👕 **Cloth & Rustle FX:** Added fabric movement and sound for more realism.<br>  
+  • 🔫 **Laser Sight Aiming:** Combined precise aiming with dynamic character motion.<br>  
+  • ✨ **Visual Polish:** Improved lighting, shadows, and particles to raise the cinematic quality.<br>  
+  </div>  
+
+  This dev log shows how I can **turn ideas into polished gameplay systems**, making it a strong example of my skills for teams looking to hire a Unity developer who values both creativity and execution.  
+
+  
+
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://play.google.com/store/apps/dev?id=5098086919552643266&hl=en" target="_blank">
+      <img src="https://play-lh.googleusercontent.com/5xfRPBKIeOt3OZwOoTTY-m9i1U3lW26WVxaXS1yHP7Oung5V0_kwHP2bDorunyuYPw=w3840-h2160" width="260" alt="Skylab Studios Logo">
+    </a>
+  </div>
+
+  ---
+
+  #### 📱 Coming Soon on Google Play  
+  <div style="text-align:center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" target="_blank" class="store-badge" alt="Coming Soon on Google Play" style="opacity:0.5;">
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+    <a href="https://youtu.be/jGYHv9sheAY" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/jGYHv9sheAY/maxresdefault.jpg" alt="Inspired by Max Payne Gameplay Thumbnail">
+    </a>
+  </div>
+---
