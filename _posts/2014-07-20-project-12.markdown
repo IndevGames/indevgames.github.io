@@ -1,0 +1,54 @@
+---
+layout: default
+modal-id: -1
+date: 2014-07-20
+img: Combat.png
+alt: Combat Thumbnail
+project-date: February 2026
+client: Indev Games
+category: Game Development
+description: |
+  ### 🌀 John wick – Action Combat & Executions  
+
+  *Dev Log – Combat System* is a hands-on **Unity project** where I built cinematic gameplay inspired by John Wick style fighting. The goal was to create mechanics that feel fast, polished, and responsive — delivering smooth combos and brutal executions.  
+
+  The focus is on clean Animator design, scriptable execution logic, and fluid transitions — showing how I combine **technical precision with creative combat design** to deliver a complete experience.  
+
+  <div style="text-align:left; margin: 10px 0;">
+  • 👊 **Punch & Kick Combos:** Built seamless transitions between punches and kicks for fluid chaining.<br>
+  • 🎬 **Clean Animator Setup:** Organized sub-state machines and transitions for clarity and scalability.<br>
+  • ⚔️ **Scriptable Execution System:** Designed modular execution moves for extensibility and easy customization.<br>
+  • 🔄 **Cross-Transitions:** Enabled punches to flow into kicks and vice versa for dynamic combat variety.<br>
+  • 🕹 **Responsive Controls:** Ensured precise input handling for smooth player feedback.<br>
+  • ✨ **Visual Polish:** Added timing, impact effects, and cinematic flow to enhance immersion.<br>
+  </div>  
+
+  This dev log shows how I can **architect robust, intuitive, and maintainable systems** in Unity — making it a strong example of my skills for teams looking to hire a developer who values both creativity and clean execution.  
+
+  
+
+  ---
+
+  #### 🏢 Developed at  
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="https://play.google.com/store/apps/dev?id=5098086919552643266&hl=en" target="_blank">
+      <img src="https://play-lh.googleusercontent.com/5xfRPBKIeOt3OZwOoTTY-m9i1U3lW26WVxaXS1yHP7Oung5V0_kwHP2bDorunyuYPw=w3840-h2160" width="260" alt="Skylab Studios Logo">
+    </a>
+  </div>
+
+  ---
+
+  #### 📱 Coming Soon on Google Play  
+  <div style="text-align:center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" target="_blank" class="store-badge" alt="Coming Soon on Google Play" style="opacity:0.5;">
+  </div>
+
+  ---
+
+  #### 🎥 Gameplay Video  
+  <div style="text-align:center;">
+    <a href="https://youtu.be/3S79yPxabY8" target="_blank" class="youtube-thumb">
+      <img src="https://img.youtube.com/vi/3S79yPxabY8/maxresdefault.jpg" alt="Action Combat Gameplay Thumbnail">
+    </a>
+  </div>
+---
